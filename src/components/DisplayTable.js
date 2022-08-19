@@ -20,7 +20,7 @@ const DisplayTable = ({ data, repositories }) => {
               " "
             ) : (
               <img
-                className="ui small circular image"
+                className="ui small circular image"                   //formato do icone do 
                 src={data.avatar_url}
                 alt={data.avatar_url}
               />
